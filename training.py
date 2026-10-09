@@ -11,7 +11,7 @@ LORA_R = 16
 LORA_ALPHA = 32
 LORA_DROPOUT = 0.05
 
-#from unsloth import FastLanguageModel
+from unsloth import FastLanguageModel
 from transformers import DataCollatorForSeq2Seq
 import torch
 import time
